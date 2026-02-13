@@ -100,7 +100,7 @@ export class ExamplePartnerProvider implements NetfileProvider {
       },
       Credits: {
         Line30000: request.credits.basicPersonalAmount, // Basic personal
-        Line30800: request.credits.cppContributions, // CPP
+        Line30800: request.income.totalCPPContributions, // CPP
         Line31220: request.credits.medicalExpenses, // Medical
         Line32300: request.credits.tuitionFees, // Tuition
         Line34900: request.credits.charitableDonations, // Donations
